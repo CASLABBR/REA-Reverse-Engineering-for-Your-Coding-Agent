@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-10-29T08:15:31.631Z",
+  "projectRoot": "E:\\INTELIGENCIA_ARTIFICIAL\\SKILL",
+  "structure": {
+    "hasPackageJson": false,
+    "hasTsConfig": false,
+    "hasClaudeConfig": true,
+    "hasClaudeFlow": true
+  },
+  "scannedAt": 1793261731631
+}

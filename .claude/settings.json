@@ -1,0 +1,45 @@
+{
+  "env": {
+    "NINEROUTER_URL": "http://localhost:20128",
+    "NINEROUTER_KEY": "${NINEROUTER_KEY}"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(python:*)",
+      "Bash(pip:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"[9Router] Executando: $TOOL_INPUT\""
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"SessionStart blocked\""
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "ruflo-core@ruflo": true,
+    "ruflo-console@ruflo": true,
+    "ruflo-mods@ruflo": true
+  }
+}

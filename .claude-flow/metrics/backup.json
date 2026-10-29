@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-10-28T18:03:27.673Z",
+  "backedUp": false,
+  "backups": [
+    {
+      "backedUp": false,
+      "skipped": "no-db",
+      "dbPath": "E:\\INTELIGENCIA_ARTIFICIAL\\SKILL\\.swarm\\memory.db"
+    },
+    {
+      "backedUp": false,
+      "skipped": "no-db",
+      "dbPath": "E:\\INTELIGENCIA_ARTIFICIAL\\SKILL\\.swarm\\agentdb-memory.db"
+    }
+  ],
+  "sizeBytes": 0,
+  "rotatedAway": 0,
+  "skipped": "no-db"
+}

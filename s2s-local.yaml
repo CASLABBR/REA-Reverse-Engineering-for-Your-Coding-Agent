@@ -1,0 +1,92 @@
+# speech-to-speech Configuração 100% Local
+# Uso: speech-to-speech serve -f s2s-local.yaml
+#      speech-to-speech local -f s2s-local.yaml
+#      speech-to-speech talk --url ws://localhost:8765/v1/realtime
+
+schema_version: 1
+
+runtime:
+  log_level: INFO
+  log_transcripts: false
+  torch_num_threads: 4
+  server:
+    host: "0.0.0.0"
+    port: 8765
+  client:
+    url: "ws://localhost:8765/v1/realtime"
+    model: "local"
+    voice: "Aiden"
+    instructions: "Você é um assistente de voz útil e natural. Responda em português do Brasil de forma conversacional e amigável."
+
+blocks:
+  # VAD - Voice Activity Detection
+  vad_silero:
+    kind: vad
+    backend: silero
+    settings:
+      vad: silero
+      threshold: 0.6
+      min_speech_ms: 250
+      min_silence_ms: 500
+      max_speech_ms: 30000
+
+  # STT - Speech to Text (Parakeet TDT - NVIDIA, local, rápido)
+  stt_parakeet:
+    kind: stt
+    backend: parakeet-tdt
+    settings:
+      parakeet_tdt_model_name: "nvidia/parakeet-tdt-0.6b-v2"
+      parakeet_tdt_device: "auto"  # cuda, cpu, auto
+      parakeet_tdt_dtype: "float16"
+      enable_live_transcription: true
+      live_transcription_update_interval: 0.5
+
+  # LLM - Local via transformers (Hugging Face)
+  # Modelos recomendados para PT-BR:
+  # - microsoft/Phi-3.5-mini-instruct (3.8B, bom em PT)
+  # - microsoft/Phi-3-mini-4k-instruct (3.8B)
+  # - Qwen/Qwen2.5-3B-Instruct (3B, excelente PT)
+  # - Qwen/Qwen2.5-7B-Instruct (7B, melhor qualidade)
+  # - meta-llama/Llama-3.2-3B-Instruct (3B)
+  llm_local:
+    kind: llm
+    backend: transformers
+    settings:
+      llm_model_name: "Qwen/Qwen2.5-3B-Instruct"
+      llm_device: "auto"
+      llm_dtype: "auto"  # auto, float16, bfloat16, float32
+      llm_max_new_tokens: 512
+      llm_temperature: 0.7
+      llm_top_p: 0.9
+      llm_repetition_penalty: 1.1
+      llm_chat_template: "auto"
+      llm_trust_remote_code: true
+      llm_attn_implementation: "sdpa"  # sdpa, flash_attention_2, eager
+
+  # TTS - Qwen3-TTS (local, multilíngue, qualidade excelente)
+  tts_qwen3:
+    kind: tts
+    backend: qwen3
+    settings:
+      qwen3_tts_model_name: "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
+      qwen3_tts_device: "auto"
+      qwen3_tts_dtype: "float16"
+      qwen3_tts_backend: "transformers"  # transformers, ggml
+      qwen3_tts_speaker: "Aiden"  # Aiden, Ethan, Liam, Noah, Oliver, etc.
+      qwen3_tts_language: "auto"
+      qwen3_tts_non_streaming_mode: false
+      qwen3_tts_mlx_quantization: "6bit"
+
+pipelines:
+  local_ptbr:
+    stages:
+      vad: vad_silero
+      stt: stt_parakeet
+      llm: llm_local
+      tts: tts_qwen3
+    num_pipelines: 1
+    options:
+      enable_live_transcription: true
+      live_transcription_update_interval: 0.5
+      detect_llm_output_language: true
+      diarization: false

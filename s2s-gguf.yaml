@@ -1,0 +1,74 @@
+# speech-to-speech Configuração GGUF (llama.cpp) - CPU only, sem GPU
+# Requer: pip install "speech-to-speech[mlx-lm]" (para MLX) ou usar llama.cpp standalone
+# Uso: speech-to-speech serve -f s2s-gguf.yaml
+
+schema_version: 1
+
+runtime:
+  log_level: INFO
+  log_transcripts: false
+  torch_num_threads: 4
+  server:
+    host: "0.0.0.0"
+    port: 8765
+  client:
+    url: "ws://localhost:8765/v1/realtime"
+    model: "local"
+    voice: "Aiden"
+    instructions: "Você é um assistente de voz útil e natural. Responda em português do Brasil."
+
+blocks:
+  vad_silero:
+    kind: vad
+    backend: silero
+    settings:
+      vad: silero
+      threshold: 0.5
+      min_speech_ms: 200
+      min_silence_ms: 400
+
+  # faster-whisper local (CPU otimizado)
+  stt_faster_whisper:
+    kind: stt
+    backend: faster-whisper
+    settings:
+      faster_whisper_stt_model_name: "small"  # tiny/base/small/medium/large-v3
+      faster_whisper_stt_device: "cpu"
+      faster_whisper_stt_compute_type: "int8"
+      faster_whisper_stt_language: "pt"
+      enable_live_transcription: true
+
+  # LLM via llama.cpp (GGUF) - requer llama.cpp server rodando
+  # Inicie: llama-server -hf ggml-org/Qwen2.5-3B-Instruct-GGUF -np 2 -c 8192 -fa on
+  llm_llamacpp:
+    kind: llm
+    backend: chat-completions
+    settings:
+      responses_api_base_url: "http://localhost:8080/v1"
+      responses_api_api_key: ""
+      responses_api_model: "Qwen2.5-3B-Instruct"
+      responses_api_temperature: 0.7
+      responses_api_max_tokens: 512
+      responses_api_stream: true
+
+  # TTS Kokoro (leve, CPU)
+  tts_kokoro:
+    kind: tts
+    backend: kokoro
+    settings:
+      kokoro_model_name: "hexgrad/Kokoro-82M"
+      kokoro_voice: "pf_dora"
+      kokoro_language: "pt"
+      kokoro_speed: 1.0
+
+pipelines:
+  local_gguf:
+    stages:
+      vad: vad_silero
+      stt: stt_faster_whisper
+      llm: llm_llamacpp
+      tts: tts_kokoro
+    num_pipelines: 1
+    options:
+      enable_live_transcription: true
+      detect_llm_output_language: true

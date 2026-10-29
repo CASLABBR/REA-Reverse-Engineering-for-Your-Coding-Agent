@@ -1,0 +1,1814 @@
+{
+  "entries": {
+    "cmd-1793180960597": {
+      "key": "cmd-1793180960597",
+      "value": "{\"command\":\"ls -la\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T09:49:20.597Z",
+      "lastAccessed": "2026-10-28T09:49:20.597Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T09:49:20.597Z"
+    },
+    "cmd-1793180966646": {
+      "key": "cmd-1793180966646",
+      "value": "{\"command\":\"ls -la .claude 2>/dev/null || echo \\\"No .claude directory\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T09:49:26.646Z",
+      "lastAccessed": "2026-10-28T09:49:26.646Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T09:49:26.646Z"
+    },
+    "cmd-1793180985150": {
+      "key": "cmd-1793180985150",
+      "value": "{\"command\":\"mkdir -p .claude\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T09:49:45.150Z",
+      "lastAccessed": "2026-10-28T09:49:45.150Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T09:49:45.150Z"
+    },
+    "cmd-1793181437937": {
+      "key": "cmd-1793181437937",
+      "value": "{\"command\":\"ls -la E:\\\\INTELIGENCIA_ARTIFICIAL\\\\SKILL\\\\*.py E:\\\\INTELIGENCIA_ARTIFICIAL\\\\SKILL\\\\*.js E:\\\\INTELIGENCIA_ARTIFICIAL\\\\SKILL\\\\*.ps1 E:\\\\INTELIGENCIA_ARTIFICIAL\\\\SKILL\\\\*.bat E:\\\\INTELIGENCIA_ARTIFICIAL\\\\SKILL\\\\*.md 2>/dev/null | head -30\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T09:57:17.937Z",
+      "lastAccessed": "2026-10-28T09:57:17.937Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T09:57:17.937Z"
+    },
+    "cmd-1793181448140": {
+      "key": "cmd-1793181448140",
+      "value": "{\"command\":\"ls -la *.py *.js *.ps1 *.bat *.md 2>/dev/null\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T09:57:28.140Z",
+      "lastAccessed": "2026-10-28T09:57:28.140Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T09:57:28.140Z"
+    },
+    "cmd-1793181635304": {
+      "key": "cmd-1793181635304",
+      "value": "{\"command\":\"mkdir -p \\\"D:\\\\repos\\\" && cd \\\"D:\\\\repos\\\" && git clone https://github.com/morluto/rea.git\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:00:35.304Z",
+      "lastAccessed": "2026-10-28T10:00:35.304Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:00:35.304Z"
+    },
+    "cmd-1793181683428": {
+      "key": "cmd-1793181683428",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\" && git clone https://github.com/ruvnet/ruflo.git\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:01:23.428Z",
+      "lastAccessed": "2026-10-28T10:01:23.428Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:01:23.428Z"
+    },
+    "cmd-1793181824333": {
+      "key": "cmd-1793181824333",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\" && git clone https://github.com/haozheguo/Aweosome-Video-Agent.git\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:03:44.333Z",
+      "lastAccessed": "2026-10-28T10:03:44.333Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:03:44.333Z"
+    },
+    "cmd-1793181852985": {
+      "key": "cmd-1793181852985",
+      "value": "{\"command\":\"ls -la \\\"D:\\\\repos\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:04:12.985Z",
+      "lastAccessed": "2026-10-28T10:04:12.985Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:04:12.985Z"
+    },
+    "cmd-1793181867081": {
+      "key": "cmd-1793181867081",
+      "value": "{\"command\":\"ls -la \\\"D:/\\\" | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:04:27.081Z",
+      "lastAccessed": "2026-10-28T10:04:27.081Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:04:27.081Z"
+    },
+    "cmd-1793181877393": {
+      "key": "cmd-1793181877393",
+      "value": "{\"command\":\"ls \\\"D:\\\\Desktop\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:04:37.393Z",
+      "lastAccessed": "2026-10-28T10:04:37.393Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:04:37.393Z"
+    },
+    "cmd-1793181918372": {
+      "key": "cmd-1793181918372",
+      "value": "{\"command\":\"powershell -Command \\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:05:18.372Z",
+      "lastAccessed": "2026-10-28T10:05:18.372Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:05:18.372Z"
+    },
+    "cmd-1793181959204": {
+      "key": "cmd-1793181959204",
+      "value": "{\"command\":\"powershell -Command \\\"$WshShell = New-Object -comObject WScript.Shell; $Desktop = [Environment]::GetFolderPath('Desktop'); $Shortcut = $WshShell.CreateShortcut(\\\\\\\"$Desktop\\\\REA.lnk\\\\\\\"); $Shortcut.TargetPath = 'D:\\\\repos\\\\rea'; $Shortcut.WorkingDirectory = 'D:\\\\repos\\\\rea'; $Shortcut.Save(); Write-Host 'REA.lnk criado'\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:05:59.204Z",
+      "lastAccessed": "2026-10-28T10:05:59.204Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:05:59.204Z"
+    },
+    "cmd-1793182050972": {
+      "key": "cmd-1793182050972",
+      "value": "{\"command\":\"powershell -ExecutionPolicy Bypass -File \\\"E:\\\\INTELIGENCIA_ARTIFICIAL\\\\SKILL\\\\create_shortcuts.ps1\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:07:30.972Z",
+      "lastAccessed": "2026-10-28T10:07:30.972Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:07:30.972Z"
+    },
+    "cmd-1793182096937": {
+      "key": "cmd-1793182096937",
+      "value": "{\"command\":\"ls \\\"D:\\\\Desktop\\\\*.lnk\\\" | grep -E \\\"(REA|Ruflo|Aweosome)\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:08:16.937Z",
+      "lastAccessed": "2026-10-28T10:08:16.937Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:08:16.937Z"
+    },
+    "cmd-1793182113381": {
+      "key": "cmd-1793182113381",
+      "value": "{\"command\":\"ls \\\"/mnt/d/Desktop/\\\" | grep -E \\\"(REA|Ruflo|Aweosome)\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:08:33.381Z",
+      "lastAccessed": "2026-10-28T10:08:33.381Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:08:33.381Z"
+    },
+    "cmd-1793182148637": {
+      "key": "cmd-1793182148637",
+      "value": "{\"command\":\"ls \\\"D:/Desktop/\\\" | grep -E \\\"(REA|Ruflo|Aweosome)\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:09:08.637Z",
+      "lastAccessed": "2026-10-28T10:09:08.637Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:09:08.637Z"
+    },
+    "cmd-1793182200764": {
+      "key": "cmd-1793182200764",
+      "value": "{\"command\":\"powershell -Command \\\"$WshShell = New-Object -comObject WScript.Shell; $Shortcut = $WshShell.CreateShortcut('D:\\\\Desktop\\\\REA.lnk'); Write-Host \\\\\\\"Target: $($Shortcut.TargetPath)\\\\\\\"; $Shortcut = $WshShell.CreateShortcut('D:\\\\Desktop\\\\Ruflo.lnk'); Write-Host \\\\\\\"Target: $($Shortcut.TargetPath)\\\\\\\"; $Shortcut = $WshShell.CreateShortcut('D:\\\\Desktop\\\\Aweosome-Video-Agent.lnk'); Write-Host \\\\\\\"Target: $($Shortcut.TargetPath)\\\\\\\"\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:10:00.764Z",
+      "lastAccessed": "2026-10-28T10:10:00.764Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:10:00.764Z"
+    },
+    "cmd-1793182283241": {
+      "key": "cmd-1793182283241",
+      "value": "{\"command\":\"ls -la\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:11:23.241Z",
+      "lastAccessed": "2026-10-28T10:11:23.241Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:11:23.241Z"
+    },
+    "cmd-1793182296644": {
+      "key": "cmd-1793182296644",
+      "value": "{\"command\":\"systeminfo\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:11:36.644Z",
+      "lastAccessed": "2026-10-28T10:11:36.644Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:11:36.644Z"
+    },
+    "cmd-1793182316609": {
+      "key": "cmd-1793182316609",
+      "value": "{\"command\":\"wmic path win32_videocontroller get name,adapterram,driverversion,status /format:list\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:11:56.609Z",
+      "lastAccessed": "2026-10-28T10:11:56.609Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:11:56.609Z"
+    },
+    "cmd-1793182325170": {
+      "key": "cmd-1793182325170",
+      "value": "{\"command\":\"wmic diskdrive get model,size,mediatype,status /format:list\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:12:05.170Z",
+      "lastAccessed": "2026-10-28T10:12:05.170Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:12:05.170Z"
+    },
+    "cmd-1793182347686": {
+      "key": "cmd-1793182347686",
+      "value": "{\"command\":\"wmic path win32_desktopmonitor get name,screenwidth,screenheight,pixelsperxlogicalinch /format:list\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:12:27.686Z",
+      "lastAccessed": "2026-10-28T10:12:27.686Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:12:27.686Z"
+    },
+    "cmd-1793182376141": {
+      "key": "cmd-1793182376141",
+      "value": "{\"command\":\"powershell \\\"Get-CimInstance -Namespace root\\\\wmi -ClassName WmiMonitorID | Select-Object InstanceName, @{n='Manufacturer';e={[System.Text.Encoding]::ASCII.GetString($_.ManufacturerName)}}, @{n='ProductCode';e={[System.Text.Encoding]::ASCII.GetString($_.ProductCodeID)}}, @{n='SerialNumber';e={[System.Text.Encoding]::ASCII.GetString($_.SerialNumberID)}}, @{n='Week';e={$_.WeekOfManufacture}}, @{n='Year';e={$_.YearOfManufacture}}\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:12:56.141Z",
+      "lastAccessed": "2026-10-28T10:12:56.141Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:12:56.141Z"
+    },
+    "cmd-1793182392729": {
+      "key": "cmd-1793182392729",
+      "value": "{\"command\":\"ls -la \\\"D:\\\\repos\\\\rea\\\" && echo \\\"---\\\" && ls -la \\\"D:\\\\repos\\\\ruflo\\\" && echo \\\"---\\\" && ls -la \\\"D:\\\\repos\\\\Aweosome-Video-Agent\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:13:12.729Z",
+      "lastAccessed": "2026-10-28T10:13:12.729Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:13:12.729Z"
+    },
+    "cmd-1793182427474": {
+      "key": "cmd-1793182427474",
+      "value": "{\"command\":\"powercfg /q\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:13:47.474Z",
+      "lastAccessed": "2026-10-28T10:13:47.474Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:13:47.474Z"
+    },
+    "cmd-1793182429189": {
+      "key": "cmd-1793182429189",
+      "value": "{\"command\":\"ls -la \\\"D:\\\\repos\\\\Aweosome-Video-Agent\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:13:49.189Z",
+      "lastAccessed": "2026-10-28T10:13:49.189Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:13:49.189Z"
+    },
+    "cmd-1793182457846": {
+      "key": "cmd-1793182457846",
+      "value": "{\"command\":\"powershell \\\"Get-CimInstance -Namespace root\\\\wmi -ClassName WmiMonitorID | Select-Object InstanceName, ManufacturerName, ProductCodeID, SerialNumberID, WeekOfManufacture, YearOfManufacture\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:14:17.846Z",
+      "lastAccessed": "2026-10-28T10:14:17.846Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:14:17.846Z"
+    },
+    "cmd-1793182498741": {
+      "key": "cmd-1793182498741",
+      "value": "{\"command\":\"powercfg /l\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:14:58.741Z",
+      "lastAccessed": "2026-10-28T10:14:58.741Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:14:58.741Z"
+    },
+    "cmd-1793182535746": {
+      "key": "cmd-1793182535746",
+      "value": "{\"command\":\"powershell \\\"Get-CimInstance -Namespace root\\\\wmi -ClassName WmiMonitorID | ForEach-Object { [System.Text.Encoding]::ASCII.GetString($_.ManufacturerName) + ' ' + [System.Text.Encoding]::ASCII.GetString($_.ProductCodeID) + ' ' + $_.WeekOfManufacture + '/' + $_.YearOfManufacture }\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:15:35.746Z",
+      "lastAccessed": "2026-10-28T10:15:35.746Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:15:35.746Z"
+    },
+    "cmd-1793182567736": {
+      "key": "cmd-1793182567736",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\\rea\\\" && npm install 2>&1 | tail -30\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:16:07.736Z",
+      "lastAccessed": "2026-10-28T10:16:07.736Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:16:07.736Z"
+    },
+    "cmd-1793182593562": {
+      "key": "cmd-1793182593562",
+      "value": "{\"command\":\"powercfg /getactivescheme\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:16:33.562Z",
+      "lastAccessed": "2026-10-28T10:16:33.562Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:16:33.562Z"
+    },
+    "cmd-1793182676872": {
+      "key": "cmd-1793182676872",
+      "value": "{\"command\":\"powershell -c \\\"powercfg /getactivescheme\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:17:56.872Z",
+      "lastAccessed": "2026-10-28T10:17:56.872Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:17:56.872Z"
+    },
+    "cmd-1793182724163": {
+      "key": "cmd-1793182724163",
+      "value": "{\"command\":\"powershell -c \\\"powercfg /l\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:18:44.163Z",
+      "lastAccessed": "2026-10-28T10:18:44.163Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:18:44.163Z"
+    },
+    "cmd-1793182780600": {
+      "key": "cmd-1793182780600",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\\ruflo\\\" && cat package.json | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:19:40.600Z",
+      "lastAccessed": "2026-10-28T10:19:40.600Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:19:40.600Z"
+    },
+    "cmd-1793182792783": {
+      "key": "cmd-1793182792783",
+      "value": "{\"command\":\"powershell -c \\\"Get-CimInstance Win32_DesktopMonitor | Select-Object Name, ScreenWidth, ScreenHeight, PixelsPerXLogicalInch, DeviceID\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:19:52.783Z",
+      "lastAccessed": "2026-10-28T10:19:52.783Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:19:52.783Z"
+    },
+    "cmd-1793182817019": {
+      "key": "cmd-1793182817019",
+      "value": "{\"command\":\"wmic cpu get name,numberofcores,numberoflogicalprocessors,maxclockspeed /format:list\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:20:17.019Z",
+      "lastAccessed": "2026-10-28T10:20:17.019Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:20:17.019Z"
+    },
+    "cmd-1793182857932": {
+      "key": "cmd-1793182857932",
+      "value": "{\"command\":\"wmic memorychip get capacity,speed,manufacturer,partnumber /format:list\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:20:57.932Z",
+      "lastAccessed": "2026-10-28T10:20:57.932Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:20:57.932Z"
+    },
+    "cmd-1793182871710": {
+      "key": "cmd-1793182871710",
+      "value": "{\"command\":\"wmic baseboard get product,manufacturer,version /format:list\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:21:11.710Z",
+      "lastAccessed": "2026-10-28T10:21:11.710Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:21:11.710Z"
+    },
+    "cmd-1793183015575": {
+      "key": "cmd-1793183015575",
+      "value": "{\"command\":\"powershell -c \\\"Get-Disk | Select-Object Number, FriendlyName, Size, HealthStatus, OperationalStatus, FirmwareVersion\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:23:35.575Z",
+      "lastAccessed": "2026-10-28T10:23:35.575Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:23:35.575Z"
+    },
+    "cmd-1793183044150": {
+      "key": "cmd-1793183044150",
+      "value": "{\"command\":\"powershell -c \\\"Get-PhysicalDisk | Select-Object FriendlyName, MediaType, Size, HealthStatus, OperationalStatus\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:24:04.150Z",
+      "lastAccessed": "2026-10-28T10:24:04.150Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:24:04.150Z"
+    },
+    "cmd-1793183110219": {
+      "key": "cmd-1793183110219",
+      "value": "{\"command\":\"powershell -c \\\"Get-Partition | Select-Object DiskNumber, PartitionNumber, DriveLetter, Size, Type\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:25:10.219Z",
+      "lastAccessed": "2026-10-28T10:25:10.219Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:25:10.219Z"
+    },
+    "cmd-1793183128648": {
+      "key": "cmd-1793183128648",
+      "value": "{\"command\":\"netstat -ano | findstr :18000\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:25:28.648Z",
+      "lastAccessed": "2026-10-28T10:25:28.648Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:25:28.648Z"
+    },
+    "cmd-1793183141221": {
+      "key": "cmd-1793183141221",
+      "value": "{\"command\":\"powershell -c \\\"Get-CimInstance Win32_LogicalDisk | Select-Object DeviceID, Size, FreeSpace, VolumeName, FileSystem\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:25:41.221Z",
+      "lastAccessed": "2026-10-28T10:25:41.221Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:25:41.221Z"
+    },
+    "cmd-1793183175376": {
+      "key": "cmd-1793183175376",
+      "value": "{\"command\":\"taskkill /PID 14720 /F\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:26:15.376Z",
+      "lastAccessed": "2026-10-28T10:26:15.376Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:26:15.376Z"
+    },
+    "cmd-1793183188060": {
+      "key": "cmd-1793183188060",
+      "value": "{\"command\":\"powershell -c \\\"Get-CimInstance -ClassName Win32_ComputerSystem | Select-Object TotalPhysicalMemory, NumberOfProcessors, NumberOfLogicalProcessors, Manufacturer, Model, BootupState, PowerSupplyState, ThermalState\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:26:28.060Z",
+      "lastAccessed": "2026-10-28T10:26:28.060Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:26:28.060Z"
+    },
+    "cmd-1793183195442": {
+      "key": "cmd-1793183195442",
+      "value": "{\"command\":\"powershell -c \\\"Get-ItemProperty HKLM:\\\\SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run | Select-Object *\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:26:35.442Z",
+      "lastAccessed": "2026-10-28T10:26:35.442Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:26:35.442Z"
+    },
+    "cmd-1793184262551": {
+      "key": "cmd-1793184262551",
+      "value": "{\"command\":\"netstat -ano | findstr \\\"18000\\\\|8000\\\\|18001\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:44:22.551Z",
+      "lastAccessed": "2026-10-28T10:44:22.551Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:44:22.551Z"
+    },
+    "cmd-1793184275597": {
+      "key": "cmd-1793184275597",
+      "value": "{\"command\":\"Get-Process -Id (Get-NetTCPConnection -LocalPort 18000,8000,18001 -ErrorAction SilentlyContinue).OwningProcess | Select-Object Id, ProcessName, Path\",\"exitCode\":2,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:44:35.597Z",
+      "lastAccessed": "2026-10-28T10:44:35.597Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:44:35.597Z"
+    },
+    "cmd-1793184307661": {
+      "key": "cmd-1793184307661",
+      "value": "{\"command\":\"netstat -ano | grep -E \\\"18000|8000|18001\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:45:07.661Z",
+      "lastAccessed": "2026-10-28T10:45:07.661Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:45:07.661Z"
+    },
+    "cmd-1793184355140": {
+      "key": "cmd-1793184355140",
+      "value": "{\"command\":\"ls -la\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:45:55.140Z",
+      "lastAccessed": "2026-10-28T10:45:55.140Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:45:55.140Z"
+    },
+    "cmd-1793184356130": {
+      "key": "cmd-1793184356130",
+      "value": "{\"command\":\"pip install speech-to-speech -q 2>&1 | tail -5\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:45:56.130Z",
+      "lastAccessed": "2026-10-28T10:45:56.130Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:45:56.130Z"
+    },
+    "cmd-1793184369989": {
+      "key": "cmd-1793184369989",
+      "value": "{\"command\":\"systeminfo | head -40\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:46:09.989Z",
+      "lastAccessed": "2026-10-28T10:46:09.989Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:46:09.989Z"
+    },
+    "cmd-1793184378272": {
+      "key": "cmd-1793184378272",
+      "value": "{\"command\":\"tasklist /FI \\\"PID eq 9816\\\" /FI \\\"PID eq 9676\\\" /FI \\\"PID eq 9040\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:46:18.272Z",
+      "lastAccessed": "2026-10-28T10:46:18.272Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:46:18.272Z"
+    },
+    "cmd-1793184397834": {
+      "key": "cmd-1793184397834",
+      "value": "{\"command\":\"speech-to-speech --help 2>&1 | head -60\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:46:37.834Z",
+      "lastAccessed": "2026-10-28T10:46:37.834Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:46:37.834Z"
+    },
+    "cmd-1793184421112": {
+      "key": "cmd-1793184421112",
+      "value": "{\"command\":\"wmic computersystem get TotalPhysicalMemory,Manufacturer,Model /value\",\"exitCode\":188,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:47:01.112Z",
+      "lastAccessed": "2026-10-28T10:47:01.112Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:47:01.112Z"
+    },
+    "cmd-1793184436692": {
+      "key": "cmd-1793184436692",
+      "value": "{\"command\":\"tasklist /FI \\\"PID eq 9816\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:47:16.692Z",
+      "lastAccessed": "2026-10-28T10:47:16.692Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:47:16.692Z"
+    },
+    "cmd-1793184441063": {
+      "key": "cmd-1793184441063",
+      "value": "{\"command\":\"python -m speech_to_speech --help 2>&1 | head -80\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:47:21.063Z",
+      "lastAccessed": "2026-10-28T10:47:21.063Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:47:21.063Z"
+    },
+    "cmd-1793184445108": {
+      "key": "cmd-1793184445108",
+      "value": "{\"command\":\"ps aux | grep -E \\\"9816|9676|9040\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:47:25.108Z",
+      "lastAccessed": "2026-10-28T10:47:25.108Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:47:25.108Z"
+    },
+    "cmd-1793184475862": {
+      "key": "cmd-1793184475862",
+      "value": "{\"command\":\"wmic cpu get Name,NumberOfCores,NumberOfLogicalProcessors,MaxClockSpeed /value\",\"exitCode\":188,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:47:55.862Z",
+      "lastAccessed": "2026-10-28T10:47:55.862Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:47:55.862Z"
+    },
+    "cmd-1793184482742": {
+      "key": "cmd-1793184482742",
+      "value": "{\"command\":\"powershell -c \\\"Get-Process -Id 9816, 9676, 9040 | Select-Object Id, ProcessName, Path\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:48:02.742Z",
+      "lastAccessed": "2026-10-28T10:48:02.742Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:48:02.742Z"
+    },
+    "cmd-1793184497765": {
+      "key": "cmd-1793184497765",
+      "value": "{\"command\":\"python -c \\\"import speech_to_speech; print(speech_to_speech.__file__)\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:48:17.765Z",
+      "lastAccessed": "2026-10-28T10:48:17.765Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:48:17.765Z"
+    },
+    "cmd-1793184520389": {
+      "key": "cmd-1793184520389",
+      "value": "{\"command\":\"wmic path win32_VideoController get Name,AdapterRAM,DriverVersion /value\",\"exitCode\":188,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:48:40.389Z",
+      "lastAccessed": "2026-10-28T10:48:40.389Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:48:40.389Z"
+    },
+    "cmd-1793184535233": {
+      "key": "cmd-1793184535233",
+      "value": "{\"command\":\"ls -la \\\"C:\\\\Users\\\\Home\\\\AppData\\\\Roaming\\\\Python\\\\Python311\\\\site-packages\\\\speech_to_speech\\\\\\\"\",\"exitCode\":2,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:48:55.233Z",
+      "lastAccessed": "2026-10-28T10:48:55.233Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:48:55.233Z"
+    },
+    "cmd-1793184542836": {
+      "key": "cmd-1793184542836",
+      "value": "{\"command\":\"wmic computersystem get TotalPhysicalMemory,Manufacturer,Model\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:49:02.836Z",
+      "lastAccessed": "2026-10-28T10:49:02.836Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:49:02.836Z"
+    },
+    "cmd-1793184575504": {
+      "key": "cmd-1793184575504",
+      "value": "{\"command\":\"powershell -c \\\"Stop-Process -Id 9040, 9676, 9816 -Force\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:49:35.504Z",
+      "lastAccessed": "2026-10-28T10:49:35.504Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:49:35.504Z"
+    },
+    "cmd-1793184575712": {
+      "key": "cmd-1793184575712",
+      "value": "{\"command\":\"wmic cpu get Name,NumberOfCores,NumberOfLogicalProcessors,MaxClockSpeed\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:49:35.712Z",
+      "lastAccessed": "2026-10-28T10:49:35.712Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:49:35.712Z"
+    },
+    "cmd-1793184593550": {
+      "key": "cmd-1793184593550",
+      "value": "{\"command\":\"wmic path win32_VideoController get Name,AdapterRAM,DriverVersion\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:49:53.550Z",
+      "lastAccessed": "2026-10-28T10:49:53.550Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:49:53.550Z"
+    },
+    "cmd-1793184608792": {
+      "key": "cmd-1793184608792",
+      "value": "{\"command\":\"wmic diskdrive get Model,Size,MediaType\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:50:08.792Z",
+      "lastAccessed": "2026-10-28T10:50:08.792Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:50:08.792Z"
+    },
+    "cmd-1793184631937": {
+      "key": "cmd-1793184631937",
+      "value": "{\"command\":\"wmic desktopmonitor get ScreenHeight,ScreenWidth,MonitorManufacturer,MonitorType /value\",\"exitCode\":188,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:50:31.937Z",
+      "lastAccessed": "2026-10-28T10:50:31.937Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:50:31.937Z"
+    },
+    "cmd-1793184636545": {
+      "key": "cmd-1793184636545",
+      "value": "{\"command\":\"python -c \\\"import os, speech_to_speech; print(os.path.dirname(speech_to_speech.__file__)); [print(f) for f in os.listdir(os.path.dirname(speech_to_speech.__file__))]\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:50:36.545Z",
+      "lastAccessed": "2026-10-28T10:50:36.545Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:50:36.545Z"
+    },
+    "cmd-1793184648424": {
+      "key": "cmd-1793184648424",
+      "value": "{\"command\":\"powershell \\\"Get-CimInstance -Namespace root\\\\wmi -ClassName WmiMonitorID | Select-Object InstanceName, ManufacturerName, UserFriendlyName, SerialNumberID, WeekOfManufacture, YearOfManufacture | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:50:48.424Z",
+      "lastAccessed": "2026-10-28T10:50:48.424Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:50:48.424Z"
+    },
+    "cmd-1793184680116": {
+      "key": "cmd-1793184680116",
+      "value": "{\"command\":\"powershell \\\"Get-CimInstance -Namespace root\\\\wmi -ClassName WmiMonitorColorCharacteristics | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:51:20.116Z",
+      "lastAccessed": "2026-10-28T10:51:20.116Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:51:20.116Z"
+    },
+    "cmd-1793184732343": {
+      "key": "cmd-1793184732343",
+      "value": "{\"command\":\"netstat -ano | grep -E \\\"18000|8000|18001\\\" || echo \\\"Portas livres\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:52:12.343Z",
+      "lastAccessed": "2026-10-28T10:52:12.343Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:52:12.343Z"
+    },
+    "cmd-1793184737261": {
+      "key": "cmd-1793184737261",
+      "value": "{\"command\":\"powershell \\\"Get-CimInstance -Namespace root\\\\wmi -ClassName WmiMonitorBrightness | Format-List\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:52:17.261Z",
+      "lastAccessed": "2026-10-28T10:52:17.261Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:52:17.261Z"
+    },
+    "cmd-1793184742209": {
+      "key": "cmd-1793184742209",
+      "value": "{\"command\":\"ls -la *.bat *.ps1 *.sh 2>/dev/null | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:52:22.209Z",
+      "lastAccessed": "2026-10-28T10:52:22.209Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:52:22.209Z"
+    },
+    "cmd-1793184804643": {
+      "key": "cmd-1793184804643",
+      "value": "{\"command\":\"powershell \\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:53:24.643Z",
+      "lastAccessed": "2026-10-28T10:53:24.643Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:53:24.643Z"
+    },
+    "cmd-1793184825616": {
+      "key": "cmd-1793184825616",
+      "value": "{\"command\":\"npx @anthropic-ai/agent-canvas --help 2>&1 | head -30\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:53:45.616Z",
+      "lastAccessed": "2026-10-28T10:53:45.616Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:53:45.616Z"
+    },
+    "cmd-1793184832065": {
+      "key": "cmd-1793184832065",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\Class\\\\{4d36e968-e325-11ce-bfc1-08002be10318}\\\\0000' | Select-Object DriverVersion, ProviderName, DriverDate\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:53:52.065Z",
+      "lastAccessed": "2026-10-28T10:53:52.065Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:53:52.065Z"
+    },
+    "cmd-1793184857265": {
+      "key": "cmd-1793184857265",
+      "value": "{\"command\":\"ls -la \\\"C:\\\\Users\\\\Home\\\\AppData\\\\Local\\\\Programs\\\\OpenHands Agent Canvas\\\\\\\" 2>/dev/null\",\"exitCode\":2,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:54:17.265Z",
+      "lastAccessed": "2026-10-28T10:54:17.265Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:54:17.265Z"
+    },
+    "cmd-1793184889965": {
+      "key": "cmd-1793184889965",
+      "value": "{\"command\":\"ls -la /mnt/c/Users/Home/AppData/Local/Programs/OpenHands\\\\ Agent\\\\ Canvas/\",\"exitCode\":2,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:54:49.965Z",
+      "lastAccessed": "2026-10-28T10:54:49.965Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:54:49.965Z"
+    },
+    "cmd-1793184904856": {
+      "key": "cmd-1793184904856",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject -Namespace root\\\\wmi -Class WmiMonitorColorCharacteristics | ForEach-Object { 'Monitor: ' + \\\\$_.InstanceName; 'Red: x=' + \\\\$_.Red.x + ' y=' + \\\\$_.Red.y; 'Green: x=' + \\\\$_.Green.x + ' y=' + \\\\$_.Green.y; 'Blue: x=' + \\\\$_.Blue.x + ' y=' + \\\\$_.Blue.y; 'White: x=' + \\\\$_.DefaultWhite.x + ' y=' + \\\\$_.DefaultWhite.y }\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:55:04.856Z",
+      "lastAccessed": "2026-10-28T10:55:04.856Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:55:04.856Z"
+    },
+    "cmd-1793184936231": {
+      "key": "cmd-1793184936231",
+      "value": "{\"command\":\"ls -la \\\"C:/Users/Home/AppData/Local/Programs/OpenHands Agent Canvas/\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:55:36.231Z",
+      "lastAccessed": "2026-10-28T10:55:36.231Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:55:36.231Z"
+    },
+    "cmd-1793184949092": {
+      "key": "cmd-1793184949092",
+      "value": "{\"command\":\"powershell \\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:55:49.092Z",
+      "lastAccessed": "2026-10-28T10:55:49.092Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:55:49.092Z"
+    },
+    "cmd-1793184965427": {
+      "key": "cmd-1793184965427",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_OperatingSystem | Select-Object Version, BuildNumber, OSArchitecture, TotalVisibleMemorySize, FreePhysicalMemory, TotalVirtualMemorySize, FreeVirtualMemorySize | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:56:05.427Z",
+      "lastAccessed": "2026-10-28T10:56:05.427Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:56:05.427Z"
+    },
+    "cmd-1793184969836": {
+      "key": "cmd-1793184969836",
+      "value": "{\"command\":\"\\\"C:/Users/Home/AppData/Local/Programs/OpenHands Agent Canvas/OpenHands Agent Canvas.exe\\\" &\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:56:09.836Z",
+      "lastAccessed": "2026-10-28T10:56:09.836Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:56:09.836Z"
+    },
+    "cmd-1793184985863": {
+      "key": "cmd-1793184985863",
+      "value": "{\"command\":\"sleep 3 && netstat -ano | grep -E \\\"18000|8000|18001\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:56:25.863Z",
+      "lastAccessed": "2026-10-28T10:56:25.863Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:56:25.863Z"
+    },
+    "cmd-1793185001059": {
+      "key": "cmd-1793185001059",
+      "value": "{\"command\":\"ps aux | grep -i \\\"openhands\\\\|agent.canvas\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:56:41.059Z",
+      "lastAccessed": "2026-10-28T10:56:41.059Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:56:41.059Z"
+    },
+    "cmd-1793185011219": {
+      "key": "cmd-1793185011219",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_LogicalDisk | Select-Object DeviceID, Size, FreeSpace, FileSystem, VolumeName | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:56:51.219Z",
+      "lastAccessed": "2026-10-28T10:56:51.219Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:56:51.219Z"
+    },
+    "cmd-1793185037912": {
+      "key": "cmd-1793185037912",
+      "value": "{\"command\":\"netstat -ano | grep -E \\\"18000|8000|18001\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:57:17.912Z",
+      "lastAccessed": "2026-10-28T10:57:17.912Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:57:17.912Z"
+    },
+    "cmd-1793185044239": {
+      "key": "cmd-1793185044239",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_NetworkAdapter | Where-Object { \\\\$_.NetConnectionStatus -eq 2 } | Select-Object Name, Speed, MACAddress, NetConnectionID | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:57:24.239Z",
+      "lastAccessed": "2026-10-28T10:57:24.239Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:57:24.239Z"
+    },
+    "cmd-1793185098977": {
+      "key": "cmd-1793185098977",
+      "value": "{\"command\":\"powershell \\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:58:18.977Z",
+      "lastAccessed": "2026-10-28T10:58:18.977Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:58:18.977Z"
+    },
+    "cmd-1793185117609": {
+      "key": "cmd-1793185117609",
+      "value": "{\"command\":\"netstat -ano | grep LISTENING\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:58:37.609Z",
+      "lastAccessed": "2026-10-28T10:58:37.609Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:58:37.609Z"
+    },
+    "cmd-1793185139721": {
+      "key": "cmd-1793185139721",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_DesktopMonitor | Select-Object DeviceID, ScreenHeight, ScreenWidth, MonitorManufacturer, MonitorType | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:58:59.721Z",
+      "lastAccessed": "2026-10-28T10:58:59.721Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:58:59.721Z"
+    },
+    "cmd-1793185157902": {
+      "key": "cmd-1793185157902",
+      "value": "{\"command\":\"ls -la \\\"C:/Users/Home/AppData/Local/Programs/OpenHands Agent Canvas/resources/\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:59:17.902Z",
+      "lastAccessed": "2026-10-28T10:59:17.902Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:59:17.902Z"
+    },
+    "cmd-1793185176109": {
+      "key": "cmd-1793185176109",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_VideoController | Select-Object Name, AdapterRAM, VideoModeDescription, CurrentRefreshRate, CurrentHorizontalResolution, CurrentVerticalResolution | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:59:36.109Z",
+      "lastAccessed": "2026-10-28T10:59:36.109Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:59:36.109Z"
+    },
+    "cmd-1793185187484": {
+      "key": "cmd-1793185187484",
+      "value": "{\"command\":\"ls -la \\\"C:/Users/Home/AppData/Local/Programs/OpenHands Agent Canvas/resources/bin/\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T10:59:47.484Z",
+      "lastAccessed": "2026-10-28T10:59:47.484Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T10:59:47.484Z"
+    },
+    "cmd-1793185214105": {
+      "key": "cmd-1793185214105",
+      "value": "{\"command\":\"powershell \\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:00:14.105Z",
+      "lastAccessed": "2026-10-28T11:00:14.105Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:00:14.105Z"
+    },
+    "cmd-1793185228477": {
+      "key": "cmd-1793185228477",
+      "value": "{\"command\":\"ls -la \\\"C:/Users/Home/AppData/Local/Programs/OpenHands Agent Canvas/resources/app/\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:00:28.477Z",
+      "lastAccessed": "2026-10-28T11:00:28.477Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:00:28.477Z"
+    },
+    "cmd-1793185249711": {
+      "key": "cmd-1793185249711",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\Power\\\\PowerSettings\\\\*' -ErrorAction SilentlyContinue | Select-Object * | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:00:49.711Z",
+      "lastAccessed": "2026-10-28T11:00:49.711Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:00:49.711Z"
+    },
+    "cmd-1793185261757": {
+      "key": "cmd-1793185261757",
+      "value": "{\"command\":\"ps aux | grep -i \\\"uvx\\\\|python\\\\|agent.server\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:01:01.757Z",
+      "lastAccessed": "2026-10-28T11:01:01.757Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:01:01.757Z"
+    },
+    "cmd-1793185287925": {
+      "key": "cmd-1793185287925",
+      "value": "{\"command\":\"powershell \\\"powercfg /query SCHEME_CURRENT SUB_PROCESSOR PROCTHROTTLEMAX | Select-String 'AC|DC|Setting'\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:01:27.925Z",
+      "lastAccessed": "2026-10-28T11:01:27.925Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:01:27.925Z"
+    },
+    "cmd-1793185304477": {
+      "key": "cmd-1793185304477",
+      "value": "{\"command\":\"ls -la \\\"C:/Users/Home/AppData/Local/Programs/OpenHands Agent Canvas/resources/scripts/\\\"\",\"exitCode\":2,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:01:44.477Z",
+      "lastAccessed": "2026-10-28T11:01:44.477Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:01:44.477Z"
+    },
+    "cmd-1793185318198": {
+      "key": "cmd-1793185318198",
+      "value": "{\"command\":\"powershell \\\"Get-CimInstance Win32_StartupCommand | Select-Object Name, Command, Location, User | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:01:58.198Z",
+      "lastAccessed": "2026-10-28T11:01:58.198Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:01:58.198Z"
+    },
+    "cmd-1793185385968": {
+      "key": "cmd-1793185385968",
+      "value": "{\"command\":\"ls -la \\\"C:/Users/Home/AppData/Local/Programs/OpenHands Agent Canvas/resources/app/lib/\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:03:05.968Z",
+      "lastAccessed": "2026-10-28T11:03:05.968Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:03:05.968Z"
+    },
+    "cmd-1793185424125": {
+      "key": "cmd-1793185424125",
+      "value": "{\"command\":\"find /mnt/c/Users/Home -name \\\"dev-with-automation.mjs\\\" 2>/dev/null\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:03:44.125Z",
+      "lastAccessed": "2026-10-28T11:03:44.125Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:03:44.125Z"
+    },
+    "cmd-1793185424465": {
+      "key": "cmd-1793185424465",
+      "value": "{\"command\":\"powershell \\\"Get-WindowsOptionalFeature -Online | Where-Object { \\\\$_.State -eq 'Enabled' } | Select-Object FeatureName | Format-Table -AutoSize\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:03:44.465Z",
+      "lastAccessed": "2026-10-28T11:03:44.465Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:03:44.465Z"
+    },
+    "cmd-1793185451354": {
+      "key": "cmd-1793185451354",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run' | Select-Object * | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:04:11.354Z",
+      "lastAccessed": "2026-10-28T11:04:11.354Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:04:11.354Z"
+    },
+    "cmd-1793185467803": {
+      "key": "cmd-1793185467803",
+      "value": "{\"command\":\"ls -la \\\"C:/Users/Home/AppData/Local/Programs/OpenHands Agent Canvas/resources/app/scripts/\\\" 2>/dev/null\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:04:27.803Z",
+      "lastAccessed": "2026-10-28T11:04:27.803Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:04:27.803Z"
+    },
+    "cmd-1793185506500": {
+      "key": "cmd-1793185506500",
+      "value": "{\"command\":\"cd \\\"C:/Users/Home/AppData/Local/Programs/OpenHands Agent Canvas/resources/app\\\" && node scripts/dev-with-automation.mjs --static-mode --static-dir build --mode agent-canvas --skip-npm-check &\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:05:06.500Z",
+      "lastAccessed": "2026-10-28T11:05:06.500Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:05:06.500Z"
+    },
+    "cmd-1793185554928": {
+      "key": "cmd-1793185554928",
+      "value": "{\"command\":\"powershell \\\"Get-Process | Sort-Object CPU -Descending | Select-Object -First 15 Name, Id, CPU, WS, PM | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:05:54.928Z",
+      "lastAccessed": "2026-10-28T11:05:54.928Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:05:54.928Z"
+    },
+    "cmd-1793185563097": {
+      "key": "cmd-1793185563097",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace root/wmi | ForEach-Object { 'Temp: ' + ((\\\\$_.CurrentTemperature / 10) - 273.15).ToString('F1') + '°C' }\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:06:03.097Z",
+      "lastAccessed": "2026-10-28T11:06:03.097Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:06:03.097Z"
+    },
+    "cmd-1793185598687": {
+      "key": "cmd-1793185598687",
+      "value": "{\"command\":\"sleep 10 && netstat -ano | grep -E \\\"18000|8000|18001\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:06:38.687Z",
+      "lastAccessed": "2026-10-28T11:06:38.687Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:06:38.687Z"
+    },
+    "cmd-1793185603665": {
+      "key": "cmd-1793185603665",
+      "value": "{\"command\":\"ps aux | grep -i \\\"node\\\\|uvx\\\\|python\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:06:43.665Z",
+      "lastAccessed": "2026-10-28T11:06:43.665Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:06:43.665Z"
+    },
+    "cmd-1793185612770": {
+      "key": "cmd-1793185612770",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_Fan -Namespace root/CIMV2 | Select-Object Name, DesiredSpeed, VariableSpeed | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:06:52.770Z",
+      "lastAccessed": "2026-10-28T11:06:52.770Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:06:52.770Z"
+    },
+    "cmd-1793185683787": {
+      "key": "cmd-1793185683787",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_TemperatureProbe -Namespace root/CIMV2 | Select-Object Name, CurrentReading | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:08:03.787Z",
+      "lastAccessed": "2026-10-28T11:08:03.787Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:08:03.787Z"
+    },
+    "cmd-1793185698393": {
+      "key": "cmd-1793185698393",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_BIOS | Select-Object Manufacturer, SMBIOSBIOSVersion, ReleaseDate, Version | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:08:18.393Z",
+      "lastAccessed": "2026-10-28T11:08:18.393Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:08:18.393Z"
+    },
+    "cmd-1793185724139": {
+      "key": "cmd-1793185724139",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_BaseBoard | Select-Object Manufacturer, Product, Version, SerialNumber | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:08:44.139Z",
+      "lastAccessed": "2026-10-28T11:08:44.139Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:08:44.139Z"
+    },
+    "cmd-1793185764487": {
+      "key": "cmd-1793185764487",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_PhysicalMemory | Select-Object Manufacturer, PartNumber, Speed, Capacity, ConfiguredClockSpeed | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:09:24.487Z",
+      "lastAccessed": "2026-10-28T11:09:24.487Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:09:24.487Z"
+    },
+    "cmd-1793185788688": {
+      "key": "cmd-1793185788688",
+      "value": "{\"command\":\"cd \\\"C:/Users/Home/AppData/Local/Programs/OpenHands Agent Canvas/resources/app\\\" && timeout 30 node scripts/dev-with-automation.mjs --static-mode --static-dir build --mode agent-canvas --skip-npm-check 2>&1 || true\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:09:48.688Z",
+      "lastAccessed": "2026-10-28T11:09:48.688Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:09:48.688Z"
+    },
+    "cmd-1793185830759": {
+      "key": "cmd-1793185830759",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_DiskDrive | Select-Object Model, Size, MediaType, InterfaceType, Partitions | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:10:30.759Z",
+      "lastAccessed": "2026-10-28T11:10:30.759Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:10:30.759Z"
+    },
+    "cmd-1793185909429": {
+      "key": "cmd-1793185909429",
+      "value": "{\"command\":\"powershell \\\"Get-ScheduledTask | Where-Object { \\\\$_.State -eq 'Ready' -and \\\\$_.TaskName -notlike 'Microsoft*' } | Select-Object TaskName, State | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:11:49.429Z",
+      "lastAccessed": "2026-10-28T11:11:49.429Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:11:49.429Z"
+    },
+    "cmd-1793185923861": {
+      "key": "cmd-1793185923861",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SOFTWARE\\\\Microsoft\\\\Windows NT\\\\CurrentVersion\\\\Windows Update' | Select-Object * | Format-List\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:12:03.861Z",
+      "lastAccessed": "2026-10-28T11:12:03.861Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:12:03.861Z"
+    },
+    "cmd-1793185941552": {
+      "key": "cmd-1793185941552",
+      "value": "{\"command\":\"curl -s http://localhost:8000 2>&1 | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:12:21.552Z",
+      "lastAccessed": "2026-10-28T11:12:21.552Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:12:21.552Z"
+    },
+    "cmd-1793185945997": {
+      "key": "cmd-1793185945997",
+      "value": "{\"command\":\"curl -s http://localhost:20128/api/health 2>&1 | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:12:25.997Z",
+      "lastAccessed": "2026-10-28T11:12:25.997Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:12:25.997Z"
+    },
+    "cmd-1793185955828": {
+      "key": "cmd-1793185955828",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SOFTWARE\\\\Microsoft\\\\Windows NT\\\\CurrentVersion\\\\WindowsUpdate' | Select-Object * | Format-List\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:12:35.828Z",
+      "lastAccessed": "2026-10-28T11:12:35.828Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:12:35.828Z"
+    },
+    "cmd-1793185966514": {
+      "key": "cmd-1793185966514",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\Class\\\\{4d36e968-e325-11ce-bfc1-08002be10318}\\\\0000' | Select-Object * | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:12:46.514Z",
+      "lastAccessed": "2026-10-28T11:12:46.514Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:12:46.514Z"
+    },
+    "cmd-1793185979906": {
+      "key": "cmd-1793185979906",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKCU:\\\\Control Panel\\\\Desktop' | Select-Object Wallpaper, WallpaperStyle, TileWallpaper, ScreenSaveActive, ScreenSaveTimeOut | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:12:59.906Z",
+      "lastAccessed": "2026-10-28T11:12:59.906Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:12:59.906Z"
+    },
+    "cmd-1793186012871": {
+      "key": "cmd-1793186012871",
+      "value": "{\"command\":\"powershell \\\"Get-ChildItem 'C:\\\\Windows\\\\System32\\\\spool\\\\drivers\\\\color' -Recurse | Select-Object Name, FullName | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:13:32.871Z",
+      "lastAccessed": "2026-10-28T11:13:32.871Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:13:32.871Z"
+    },
+    "cmd-1793186031905": {
+      "key": "cmd-1793186031905",
+      "value": "{\"command\":\"powershell \\\"powercfg /list\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:13:51.905Z",
+      "lastAccessed": "2026-10-28T11:13:51.905Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:13:51.905Z"
+    },
+    "cmd-1793186066529": {
+      "key": "cmd-1793186066529",
+      "value": "{\"command\":\"powershell \\\"powercfg /getactivescheme\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:14:26.529Z",
+      "lastAccessed": "2026-10-28T11:14:26.529Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:14:26.529Z"
+    },
+    "cmd-1793186098381": {
+      "key": "cmd-1793186098381",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\Session Manager\\\\Memory Management' | Select-Object * | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:14:58.381Z",
+      "lastAccessed": "2026-10-28T11:14:58.381Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:14:58.381Z"
+    },
+    "cmd-1793186165035": {
+      "key": "cmd-1793186165035",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\PriorityControl' | Select-Object * | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:16:05.035Z",
+      "lastAccessed": "2026-10-28T11:16:05.035Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:16:05.035Z"
+    },
+    "cmd-1793186188222": {
+      "key": "cmd-1793186188222",
+      "value": "{\"command\":\"powershell \\\"powercfg /query 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c SUB_PROCESSOR PROCTHROTTLEMAX\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:16:28.222Z",
+      "lastAccessed": "2026-10-28T11:16:28.222Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:16:28.222Z"
+    },
+    "cmd-1793186219970": {
+      "key": "cmd-1793186219970",
+      "value": "{\"command\":\"powershell \\\"powercfg /query 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c SUB_VIDEO VIDEOIDLE\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:16:59.970Z",
+      "lastAccessed": "2026-10-28T11:16:59.970Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:16:59.970Z"
+    },
+    "cmd-1793186236402": {
+      "key": "cmd-1793186236402",
+      "value": "{\"command\":\"powershell \\\"powercfg /query 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c SUB_SLEEP STANDBYIDLE\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:17:16.402Z",
+      "lastAccessed": "2026-10-28T11:17:16.402Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:17:16.402Z"
+    },
+    "cmd-1793186299582": {
+      "key": "cmd-1793186299582",
+      "value": "{\"command\":\"powershell \\\"Get-ChildItem 'C:\\\\Windows\\\\System32\\\\DriverStore\\\\FileRepository\\\\nv_dispi.inf_amd64_*' -Directory | Select-Object Name, LastWriteTime | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:18:19.582Z",
+      "lastAccessed": "2026-10-28T11:18:19.582Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:18:19.582Z"
+    },
+    "cmd-1793186384054": {
+      "key": "cmd-1793186384054",
+      "value": "{\"command\":\"powershell \\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:19:44.054Z",
+      "lastAccessed": "2026-10-28T11:19:44.054Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:19:44.054Z"
+    },
+    "cmd-1793186400781": {
+      "key": "cmd-1793186400781",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Services\\\\Tcpip\\\\Parameters' | Select-Object * | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:20:00.781Z",
+      "lastAccessed": "2026-10-28T11:20:00.781Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:20:00.781Z"
+    },
+    "cmd-1793186437539": {
+      "key": "cmd-1793186437539",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Services\\\\NlaSvc\\\\Parameters\\\\Internet' | Select-Object * | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:20:37.539Z",
+      "lastAccessed": "2026-10-28T11:20:37.539Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:20:37.539Z"
+    },
+    "cmd-1793186487017": {
+      "key": "cmd-1793186487017",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject -Namespace root\\\\wmi -ClassName WmiMonitorColorCharacteristics | ForEach-Object { write-host 'Monitor: ' \\\\$_.InstanceName; write-host 'Red: x=' \\\\$_.Red.x ' y=' \\\\$_.Red.y; write-host 'Green: x=' \\\\$_.Green.x ' y=' \\\\$_.Green.y; write-host 'Blue: x=' \\\\$_.Blue.x ' y=' \\\\$_.Blue.y; write-host 'White: x=' \\\\$_.DefaultWhite.x ' y=' \\\\$_.DefaultWhite.y; write-host '' }\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:21:27.017Z",
+      "lastAccessed": "2026-10-28T11:21:27.017Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:21:27.017Z"
+    },
+    "cmd-1793186540786": {
+      "key": "cmd-1793186540786",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_DesktopMonitor | ForEach-Object { write-host 'DeviceID: ' \\\\$_.DeviceID; write-host 'ScreenHeight: ' \\\\$_.ScreenHeight; write-host 'ScreenWidth: ' \\\\$_.ScreenWidth; write-host 'MonitorManufacturer: ' \\\\$_.MonitorManufacturer; write-host 'MonitorType: ' \\\\$_.MonitorType; write-host '' }\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:22:20.786Z",
+      "lastAccessed": "2026-10-28T11:22:20.786Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:22:20.786Z"
+    },
+    "cmd-1793186569232": {
+      "key": "cmd-1793186569232",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\GraphicsDrivers\\\\Configuration' -Recurse -ErrorAction SilentlyContinue | Where-Object { \\\\$_.PrimSurfSize.cx -or \\\\$_.PrimSurfSize.cy } | Select-Object PrimSurfSize, ActiveSize, Stride | Format-Table -AutoSize\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:22:49.232Z",
+      "lastAccessed": "2026-10-28T11:22:49.232Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:22:49.232Z"
+    },
+    "cmd-1793186589737": {
+      "key": "cmd-1793186589737",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\Class\\\\{4d36e968-e325-11ce-bfc1-08002be10318}' -Recurse -ErrorAction SilentlyContinue | Where-Object { \\\\$_.DriverDesc -like '*NVIDIA*' } | Select-Object DriverDesc, DriverVersion, DriverDate, ProviderName | Format-List\\\"\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:23:09.737Z",
+      "lastAccessed": "2026-10-28T11:23:09.737Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:23:09.737Z"
+    },
+    "cmd-1793186741303": {
+      "key": "cmd-1793186741303",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\Class\\\\{4d36e968-e325-11ce-bfc1-08002be10318}\\\\0000' -ErrorAction SilentlyContinue | Select-Object DriverDesc, DriverVersion, DriverDate, ProviderName | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:25:41.303Z",
+      "lastAccessed": "2026-10-28T11:25:41.303Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:25:41.303Z"
+    },
+    "cmd-1793186778556": {
+      "key": "cmd-1793186778556",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_PhysicalMemory | ForEach-Object { write-host 'Capacity: ' (\\\\$_.Capacity/1GB) 'GB'; write-host 'Speed: ' \\\\$_.Speed 'MHz'; write-host 'ConfiguredSpeed: ' \\\\$_.ConfiguredClockSpeed 'MHz'; write-host 'Manufacturer: ' \\\\$_.Manufacturer; write-host 'PartNumber: ' \\\\$_.PartNumber; write-host '' }\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:26:18.556Z",
+      "lastAccessed": "2026-10-28T11:26:18.556Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:26:18.556Z"
+    },
+    "cmd-1793186788810": {
+      "key": "cmd-1793186788810",
+      "value": "{\"command\":\"powershell \\\"Get-PhysicalDisk | ForEach-Object { write-host 'DeviceId: ' \\\\$_.DeviceId; write-host 'FriendlyName: ' \\\\$_.FriendlyName; write-host 'MediaType: ' \\\\$_.MediaType; write-host 'Size: ' (\\\\$_.Size/1GB) 'GB'; write-host 'SerialNumber: ' \\\\$_.SerialNumber; write-host '' }\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:26:28.810Z",
+      "lastAccessed": "2026-10-28T11:26:28.810Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:26:28.810Z"
+    },
+    "cmd-1793186915771": {
+      "key": "cmd-1793186915771",
+      "value": "{\"command\":\"powershell \\\"Get-Partition | Where-Object { \\\\$_.DriveLetter } | ForEach-Object { write-host 'DriveLetter: ' \\\\$_.DriveLetter; write-host 'Size: ' (\\\\$_.Size/1GB) 'GB'; write-host 'DiskNumber: ' \\\\$_.DiskNumber; write-host 'PartitionNumber: ' \\\\$_.PartitionNumber; write-host 'Type: ' \\\\$_.Type; write-host '' }\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:28:35.771Z",
+      "lastAccessed": "2026-10-28T11:28:35.771Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:28:35.771Z"
+    },
+    "cmd-1793186953444": {
+      "key": "cmd-1793186953444",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_StartupCommand | ForEach-Object { write-host 'Name: ' \\\\$_.Name; write-host 'Command: ' \\\\$_.Command; write-host 'Location: ' \\\\$_.Location; write-host 'User: ' \\\\$_.User; write-host '' }\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:29:13.444Z",
+      "lastAccessed": "2026-10-28T11:29:13.444Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:29:13.444Z"
+    },
+    "cmd-1793187074345": {
+      "key": "cmd-1793187074345",
+      "value": "{\"command\":\"powershell \\\"Get-NetAdapter | Where-Object { \\\\$_.Status -eq 'Up' } | Select-Object Name, InterfaceDescription, LinkSpeed, MacAddress | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:31:14.345Z",
+      "lastAccessed": "2026-10-28T11:31:14.345Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:31:14.345Z"
+    },
+    "cmd-1793187134654": {
+      "key": "cmd-1793187134654",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_Processor | ForEach-Object { write-host 'Name: ' \\\\$_.Name; write-host 'Manufacturer: ' \\\\$_.Manufacturer; write-host 'MaxClockSpeed: ' \\\\$_.MaxClockSpeed 'MHz'; write-host 'CurrentClockSpeed: ' \\\\$_.CurrentClockSpeed 'MHz'; write-host 'NumberOfCores: ' \\\\$_.NumberOfCores; write-host 'NumberOfLogicalProcessors: ' \\\\$_.NumberOfLogicalProcessors; write-host 'L2CacheSize: ' \\\\$_.L2CacheSize 'KB'; write-host 'L3CacheSize: ' \\\\$_.L3CacheSize 'KB'; write-host 'SocketDesignation: ' \\\\$_.SocketDesignation }\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:32:14.654Z",
+      "lastAccessed": "2026-10-28T11:32:14.654Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:32:14.654Z"
+    },
+    "cmd-1793187161764": {
+      "key": "cmd-1793187161764",
+      "value": "{\"command\":\"powershell \\\"Get-WmiObject Win32_BIOS | ForEach-Object { write-host 'Manufacturer: ' \\\\$_.Manufacturer; write-host 'SMBIOSBIOSVersion: ' \\\\$_.SMBIOSBIOSVersion; write-host 'ReleaseDate: ' \\\\$_.ReleaseDate; write-host 'Version: ' \\\\$_.Version }\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:32:41.764Z",
+      "lastAccessed": "2026-10-28T11:32:41.764Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:32:41.764Z"
+    },
+    "cmd-1793187167232": {
+      "key": "cmd-1793187167232",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKCU:\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Explorer\\\\VisualEffects' -ErrorAction SilentlyContinue | Select-Object * | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:32:47.232Z",
+      "lastAccessed": "2026-10-28T11:32:47.232Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:32:47.232Z"
+    },
+    "cmd-1793187191179": {
+      "key": "cmd-1793187191179",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Explorer\\\\VisualEffects' -ErrorAction SilentlyContinue | Select-Object * | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:33:11.179Z",
+      "lastAccessed": "2026-10-28T11:33:11.179Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:33:11.179Z"
+    },
+    "cmd-1793187295419": {
+      "key": "cmd-1793187295419",
+      "value": "{\"command\":\"powershell \\\"Get-ChildItem 'C:\\\\Windows\\\\System32\\\\spool\\\\drivers\\\\color' -Recurse -Filter '*.icm' -ErrorAction SilentlyContinue | Select-Object FullName, Length, LastWriteTime | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:34:55.419Z",
+      "lastAccessed": "2026-10-28T11:34:55.419Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:34:55.419Z"
+    },
+    "cmd-1793187331475": {
+      "key": "cmd-1793187331475",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\Session Manager\\\\Memory Management' -ErrorAction SilentlyContinue | Select-Object * | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:35:31.475Z",
+      "lastAccessed": "2026-10-28T11:35:31.475Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:35:31.475Z"
+    },
+    "cmd-1793187352858": {
+      "key": "cmd-1793187352858",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\PriorityControl' -ErrorAction SilentlyContinue | Select-Object * | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:35:52.858Z",
+      "lastAccessed": "2026-10-28T11:35:52.858Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:35:52.858Z"
+    },
+    "cmd-1793187419082": {
+      "key": "cmd-1793187419082",
+      "value": "{\"command\":\"powershell \\\"Get-ItemProperty 'HKLM:\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\FileSystem' -ErrorAction SilentlyContinue | Select-Object * | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:36:59.082Z",
+      "lastAccessed": "2026-10-28T11:36:59.082Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:36:59.082Z"
+    },
+    "cmd-1793187425608": {
+      "key": "cmd-1793187425608",
+      "value": "{\"command\":\"powershell \\\"fsutil behavior query DisableDeleteNotify\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:37:05.608Z",
+      "lastAccessed": "2026-10-28T11:37:05.608Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:37:05.608Z"
+    },
+    "cmd-1793187456370": {
+      "key": "cmd-1793187456370",
+      "value": "{\"command\":\"powershell \\\"Get-ScheduledTask | Where-Object { \\\\$_.State -eq 'Ready' -and \\\\$_.TaskName -notlike 'Microsoft*' } | Select-Object TaskName, State, TaskPath | Format-Table -AutoSize\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:37:36.370Z",
+      "lastAccessed": "2026-10-28T11:37:36.370Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:37:36.370Z"
+    },
+    "cmd-1793187482712": {
+      "key": "cmd-1793187482712",
+      "value": "{\"command\":\"powershell \\\"Get-CimInstance Win32_OperatingSystem | Select-Object Caption, Version, BuildNumber, OSArchitecture, TotalVisibleMemorySize, FreePhysicalMemory, TotalVirtualMemorySize, FreeVirtualMemory | Format-List\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T11:38:02.712Z",
+      "lastAccessed": "2026-10-28T11:38:02.712Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T11:38:02.712Z"
+    },
+    "cmd-1793205629214": {
+      "key": "cmd-1793205629214",
+      "value": "{\"command\":\"ls -la \\\"C:/Users/Home/AppData/Local/Programs/OpenHands Agent Canvas/\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T16:40:29.214Z",
+      "lastAccessed": "2026-10-28T16:40:29.214Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T16:40:29.214Z"
+    },
+    "cmd-1793208831406": {
+      "key": "cmd-1793208831406",
+      "value": "{\"command\":\"ls -la \\\"D:\\\\Downloads\\\\\\\" | head -20\",\"exitCode\":2,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:33:51.406Z",
+      "lastAccessed": "2026-10-28T17:33:51.406Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:33:51.406Z"
+    },
+    "cmd-1793208868096": {
+      "key": "cmd-1793208868096",
+      "value": "{\"command\":\"ls -la \\\"/mnt/d/Downloads/\\\" | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:34:28.096Z",
+      "lastAccessed": "2026-10-28T17:34:28.096Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:34:28.096Z"
+    },
+    "cmd-1793208927752": {
+      "key": "cmd-1793208927752",
+      "value": "{\"command\":\"ls -la \\\"D:/Downloads/\\\" 2>/dev/null || dir \\\"D:\\\\Downloads\\\" 2>/dev/null | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:35:27.752Z",
+      "lastAccessed": "2026-10-28T17:35:27.752Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:35:27.752Z"
+    },
+    "cmd-1793208972586": {
+      "key": "cmd-1793208972586",
+      "value": "{\"command\":\"cd /tmp && unzip -q \\\"D:/Downloads/greenshot-main.zip\\\" -d greenshot-src && ls greenshot-src/\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:36:12.586Z",
+      "lastAccessed": "2026-10-28T17:36:12.586Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:36:12.586Z"
+    },
+    "cmd-1793208993557": {
+      "key": "cmd-1793208993557",
+      "value": "{\"command\":\"ls -la /tmp/greenshot-src/greenshot-main/\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:36:33.557Z",
+      "lastAccessed": "2026-10-28T17:36:33.557Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:36:33.557Z"
+    },
+    "cmd-1793209022335": {
+      "key": "cmd-1793209022335",
+      "value": "{\"command\":\"ls -la /tmp/greenshot-src/greenshot-main/src/\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:37:02.335Z",
+      "lastAccessed": "2026-10-28T17:37:02.335Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:37:02.335Z"
+    },
+    "cmd-1793209042159": {
+      "key": "cmd-1793209042159",
+      "value": "{\"command\":\"ls -la /tmp/greenshot-src/greenshot-main/src/Greenshot/\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:37:22.159Z",
+      "lastAccessed": "2026-10-28T17:37:22.159Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:37:22.159Z"
+    },
+    "cmd-1793209048954": {
+      "key": "cmd-1793209048954",
+      "value": "{\"command\":\"tasklist | findstr cmd\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:37:28.954Z",
+      "lastAccessed": "2026-10-28T17:37:28.954Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:37:28.954Z"
+    },
+    "cmd-1793209069686": {
+      "key": "cmd-1793209069686",
+      "value": "{\"command\":\"wmic process where \\\"name='cmd.exe'\\\" get ProcessId,CommandLine,ParentProcessId\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:37:49.686Z",
+      "lastAccessed": "2026-10-28T17:37:49.686Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:37:49.686Z"
+    },
+    "cmd-1793209102722": {
+      "key": "cmd-1793209102722",
+      "value": "{\"command\":\"ls -la /tmp/greenshot-src/greenshot-main/src/Greenshot/Capturing/\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:38:22.722Z",
+      "lastAccessed": "2026-10-28T17:38:22.722Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:38:22.722Z"
+    },
+    "cmd-1793209123423": {
+      "key": "cmd-1793209123423",
+      "value": "{\"command\":\"grep -r \\\"PrintScreen\\\\|Hotkey\\\\|PRTSC\\\" /tmp/greenshot-src/greenshot-main/src/Greenshot/Capturing/ --include=\\\"*.cs\\\" | head -30\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:38:43.423Z",
+      "lastAccessed": "2026-10-28T17:38:43.423Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:38:43.423Z"
+    },
+    "cmd-1793209154862": {
+      "key": "cmd-1793209154862",
+      "value": "{\"command\":\"grep -r \\\"Hotkey\\\\|hotkey\\\\|Keys.Print\\\" /tmp/greenshot-src/greenshot-main/src/Greenshot/ --include=\\\"*.cs\\\" | head -40\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:39:14.862Z",
+      "lastAccessed": "2026-10-28T17:39:14.862Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:39:14.862Z"
+    },
+    "cmd-1793209199469": {
+      "key": "cmd-1793209199469",
+      "value": "{\"command\":\"grep -r \\\"HotkeyManager\\\" /tmp/greenshot-src/greenshot-main/src/Greenshot/ --include=\\\"*.cs\\\" | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:39:59.469Z",
+      "lastAccessed": "2026-10-28T17:39:59.469Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:39:59.469Z"
+    },
+    "cmd-1793209237608": {
+      "key": "cmd-1793209237608",
+      "value": "{\"command\":\"find /tmp/greenshot-src/greenshot-main/src -name \\\"HotkeyManager.cs\\\" -o -name \\\"HotkeySequence.cs\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:40:37.608Z",
+      "lastAccessed": "2026-10-28T17:40:37.608Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:40:37.608Z"
+    },
+    "cmd-1793209298222": {
+      "key": "cmd-1793209298222",
+      "value": "{\"command\":\"cat /tmp/greenshot-src/greenshot-main/src/Greenshot.Base/Core/HotkeyManager.cs\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:41:38.222Z",
+      "lastAccessed": "2026-10-28T17:41:38.222Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:41:38.222Z"
+    },
+    "cmd-1793209352976": {
+      "key": "cmd-1793209352976",
+      "value": "{\"command\":\"ps -ef | grep -i mcp\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:42:32.976Z",
+      "lastAccessed": "2026-10-28T17:42:32.976Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:42:32.976Z"
+    },
+    "cmd-1793209687869": {
+      "key": "cmd-1793209687869",
+      "value": "{\"command\":\"ls D:\\\\Downloads\\\\greenshot-main.zip 2>/dev/null && echo \\\"found\\\" || echo \\\"not found\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:48:07.869Z",
+      "lastAccessed": "2026-10-28T17:48:07.869Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:48:07.869Z"
+    },
+    "cmd-1793209726256": {
+      "key": "cmd-1793209726256",
+      "value": "{\"command\":\"ls D:\\\\Downloads\\\\*.zip 2>/dev/null | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:48:46.256Z",
+      "lastAccessed": "2026-10-28T17:48:46.256Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:48:46.256Z"
+    },
+    "cmd-1793209777938": {
+      "key": "cmd-1793209777938",
+      "value": "{\"command\":\"ls /mnt/d/Downloads/ 2>/dev/null | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:49:37.938Z",
+      "lastAccessed": "2026-10-28T17:49:37.938Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:49:37.938Z"
+    },
+    "cmd-1793209797242": {
+      "key": "cmd-1793209797242",
+      "value": "{\"command\":\"git clone https://github.com/greenshot/greenshot.git /tmp/greenshot-src 2>&1 | tail -5\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:49:57.242Z",
+      "lastAccessed": "2026-10-28T17:49:57.242Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:49:57.242Z"
+    },
+    "cmd-1793210224922": {
+      "key": "cmd-1793210224922",
+      "value": "{\"command\":\"dotnet build \\\"C:\\\\Users\\\\Home\\\\AppData\\\\Local\\\\Temp\\\\greenshot-src\\\\greenshot-main\\\\src\\\\Greenshot.sln\\\" --configuration Release 2>&1 | head -50\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:57:04.922Z",
+      "lastAccessed": "2026-10-28T17:57:04.922Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:57:04.922Z"
+    },
+    "cmd-1793210254826": {
+      "key": "cmd-1793210254826",
+      "value": "{\"command\":\"which msbuild || ls \\\"C:\\\\Program Files\\\\Microsoft Visual Studio\\\\\\\" 2>/dev/null | head -10\",\"exitCode\":2,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:57:34.826Z",
+      "lastAccessed": "2026-10-28T17:57:34.826Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:57:34.826Z"
+    },
+    "cmd-1793210282256": {
+      "key": "cmd-1793210282256",
+      "value": "{\"command\":\"ls \\\"C:/Program Files/Microsoft Visual Studio/\\\" 2>/dev/null || echo \\\"Not found\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T17:58:02.256Z",
+      "lastAccessed": "2026-10-28T17:58:02.256Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T17:58:02.256Z"
+    },
+    "cmd-1793210569641": {
+      "key": "cmd-1793210569641",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\\rea\\\" && ls -la dist 2>/dev/null && echo \\\"REA built\\\" || echo \\\"REA not built\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:02:49.641Z",
+      "lastAccessed": "2026-10-28T18:02:49.641Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:02:49.641Z"
+    },
+    "cmd-1793210625671": {
+      "key": "cmd-1793210625671",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\\ruflo\\\" && ls -la dist 2>/dev/null && echo \\\"Ruflo built\\\" || echo \\\"Ruflo not built\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:03:45.671Z",
+      "lastAccessed": "2026-10-28T18:03:45.671Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:03:45.671Z"
+    },
+    "cmd-1793210673988": {
+      "key": "cmd-1793210673988",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\\Aweosome-Video-Agent\\\" && ls -la 2>/dev/null && echo \\\"Aweosome-Video-Agent contents\\\" || echo \\\"Aweosome-Video-Agent empty\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:04:33.988Z",
+      "lastAccessed": "2026-10-28T18:04:33.988Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:04:33.988Z"
+    },
+    "cmd-1793210780880": {
+      "key": "cmd-1793210780880",
+      "value": "{\"command\":\"wmic process where \\\"name='cmd.exe'\\\" get ProcessId,CommandLine,ParentProcessId\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:06:20.880Z",
+      "lastAccessed": "2026-10-28T18:06:20.880Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:06:20.880Z"
+    },
+    "cmd-1793210898333": {
+      "key": "cmd-1793210898333",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\\rea\\\" && node -e \\\"console.log('Node works')\\\" 2>&1\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:08:18.333Z",
+      "lastAccessed": "2026-10-28T18:08:18.333Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:08:18.333Z"
+    },
+    "cmd-1793210961257": {
+      "key": "cmd-1793210961257",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\\rea\\\" && ls node_modules/.bin/ | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:09:21.257Z",
+      "lastAccessed": "2026-10-28T18:09:21.257Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:09:21.257Z"
+    },
+    "cmd-1793211133722": {
+      "key": "cmd-1793211133722",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\\rea\\\" && npm run compile 2>&1 | tail -100\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:12:13.722Z",
+      "lastAccessed": "2026-10-28T18:12:13.722Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:12:13.722Z"
+    },
+    "cmd-1793211166792": {
+      "key": "cmd-1793211166792",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\\rea\\\" && ls -la dist 2>/dev/null | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:12:46.792Z",
+      "lastAccessed": "2026-10-28T18:12:46.792Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:12:46.792Z"
+    },
+    "cmd-1793211266942": {
+      "key": "cmd-1793211266942",
+      "value": "{\"command\":\"tasklist | findstr ruflo\",\"exitCode\":1,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:14:26.942Z",
+      "lastAccessed": "2026-10-28T18:14:26.942Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:14:26.942Z"
+    },
+    "cmd-1793211314152": {
+      "key": "cmd-1793211314152",
+      "value": "{\"command\":\"wmic process where \\\"name='cmd.exe' and CommandLine like '%mcp%'\\\" get ProcessId,CommandLine,ParentProcessId,CreationDate\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:15:14.152Z",
+      "lastAccessed": "2026-10-28T18:15:14.152Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:15:14.152Z"
+    },
+    "cmd-1793211332332": {
+      "key": "cmd-1793211332332",
+      "value": "{\"command\":\"wmic process where \\\"ProcessId in (10720,9028,4476,13712,12328,12672,12628,19076)\\\" get ProcessId,Name,CommandLine\",\"exitCode\":253,\"success\":false}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:15:32.332Z",
+      "lastAccessed": "2026-10-28T18:15:32.332Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:15:32.332Z"
+    },
+    "cmd-1793211358138": {
+      "key": "cmd-1793211358138",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\\rea\\\" && timeout 30 node scripts/rea.mjs --help 2>&1 || echo \\\"Timeout or error\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:15:58.138Z",
+      "lastAccessed": "2026-10-28T18:15:58.138Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:15:58.138Z"
+    },
+    "cmd-1793211371860": {
+      "key": "cmd-1793211371860",
+      "value": "{\"command\":\"wmic process where \\\"ProcessId=10720\\\" get ProcessId,Name,CommandLine\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:16:11.860Z",
+      "lastAccessed": "2026-10-28T18:16:11.860Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:16:11.860Z"
+    },
+    "cmd-1793211407117": {
+      "key": "cmd-1793211407117",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\\ruflo\\\" && ls node_modules 2>/dev/null | head -5 || echo \\\"No node_modules\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:16:47.117Z",
+      "lastAccessed": "2026-10-28T18:16:47.117Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:16:47.117Z"
+    },
+    "cmd-1793211479417": {
+      "key": "cmd-1793211479417",
+      "value": "{\"command\":\"cd \\\"D:\\\\repos\\\\ruflo\\\" && ls -la dist 2>/dev/null | head -10 || echo \\\"Not built\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T18:17:59.417Z",
+      "lastAccessed": "2026-10-28T18:17:59.417Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T18:17:59.417Z"
+    },
+    "cmd-1793218525377": {
+      "key": "cmd-1793218525377",
+      "value": "{\"command\":\"find . -maxdepth 3 -type d \\\\( -iname \\\"*clipart*\\\" -o -iname \\\"*carol*\\\" \\\\)\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-28T20:15:25.377Z",
+      "lastAccessed": "2026-10-28T20:15:25.377Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-27T20:15:25.377Z"
+    }
+  },
+  "version": "3.0.0"
+}

@@ -1,0 +1,76 @@
+# speech-to-speech Configuração Local RÁPIDA (menos recursos)
+# Uso: speech-to-speech serve -f s2s-local-fast.yaml
+#      speech-to-speech local -f s2s-local-fast.yaml
+
+schema_version: 1
+
+runtime:
+  log_level: INFO
+  log_transcripts: false
+  torch_num_threads: 4
+  server:
+    host: "0.0.0.0"
+    port: 8765
+  client:
+    url: "ws://localhost:8765/v1/realtime"
+    model: "local"
+    voice: "Aiden"
+    instructions: "Você é um assistente de voz útil e natural. Responda em português do Brasil."
+
+blocks:
+  vad_silero:
+    kind: vad
+    backend: silero
+    settings:
+      vad: silero
+      threshold: 0.5
+      min_speech_ms: 200
+      min_silence_ms: 400
+
+  # faster-whisper: mais leve que Parakeet, roda em CPU bem
+  stt_faster_whisper:
+    kind: stt
+    backend: faster-whisper
+    settings:
+      faster_whisper_stt_model_name: "base"  # tiny, base, small, medium, large-v3
+      faster_whisper_stt_device: "auto"
+      faster_whisper_stt_compute_type: "int8"  # int8, int8_float16, float16, float32
+      faster_whisper_stt_language: "pt"
+      faster_whisper_stt_beam_size: 1
+      enable_live_transcription: true
+
+  # LLM leve: Phi-3.5-mini (3.8B) - roda em 4GB VRAM / 8GB RAM
+  llm_phi35:
+    kind: llm
+    backend: transformers
+    settings:
+      llm_model_name: "microsoft/Phi-3.5-mini-instruct"
+      llm_device: "auto"
+      llm_dtype: "auto"
+      llm_max_new_tokens: 256
+      llm_temperature: 0.7
+      llm_top_p: 0.9
+      llm_chat_template: "auto"
+      llm_trust_remote_code: true
+
+  # Kokoro TTS: muito leve, qualidade boa, multilíngue
+  tts_kokoro:
+    kind: tts
+    backend: kokoro
+    settings:
+      kokoro_model_name: "hexgrad/Kokoro-82M"
+      kokoro_voice: "pf_dora"  # pf_dora, pm_alex, pf_bella, etc.
+      kokoro_language: "pt"
+      kokoro_speed: 1.0
+
+pipelines:
+  local_fast:
+    stages:
+      vad: vad_silero
+      stt: stt_faster_whisper
+      llm: llm_phi35
+      tts: tts_kokoro
+    num_pipelines: 1
+    options:
+      enable_live_transcription: true
+      detect_llm_output_language: true

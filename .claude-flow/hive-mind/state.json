@@ -1,0 +1,22 @@
+{
+  "initialized": true,
+  "topology": "hierarchical-mesh",
+  "workers": [],
+  "consensus": {
+    "pending": [],
+    "history": []
+  },
+  "sharedMemory": {},
+  "createdAt": "2026-10-28T18:17:42.664Z",
+  "updatedAt": "2026-10-28T18:17:42.664Z",
+  "consensusStrategy": "raft",
+  "maxAgents": 15,
+  "memoryBackend": "hybrid",
+  "persist": true,
+  "queen": {
+    "agentId": "queen-1793211462664",
+    "electedAt": "2026-10-28T18:17:42.664Z",
+    "term": 1
+  },
+  "hiveToken": "10b88bce1a66f9279056054025de0fe9630371e450b01065ee08419ceafecfa1"
+}
